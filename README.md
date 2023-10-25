@@ -8,7 +8,7 @@ It then provides feedback based on the user's input and appends this information
 
 The code is [here](https://github.com/julianeon/moodtracker/blob/main/src/main.rs) and an example log file, with multiple appends, is [here](https://github.com/julianeon/moodtracker/blob/main/src/file_10_24_23.txt).
 
-## Features of Rust
+## Features 
 
 ### 1. Strong Typing
 Rust enforces strong typing, ensuring that variables have clear and consistent data types. In this code, the use of enums (`Feelings` and `Exercise`) and boolean values (`did_exercise`) provides clear and strict typing for mood, exercise status, and work task counts.
