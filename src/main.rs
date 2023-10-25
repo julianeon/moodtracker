@@ -130,17 +130,17 @@ fn append_string_to_file(feedback: &str) -> std::io::Result<()> {
 }
 
 fn main() {
-    let mut exercise = Exercise::new();
     let mut mood = Mood::new();
     let mut work_completed = WorkCompleted::new();
+    let mut exercise = Exercise::new();
 
     mood.prompt_user();
     work_completed.prompt_user();
     exercise.prompt_user();
 
-    let feedback_exercise=exercise.display_feedback();
     let feedback_mood=mood.display_feedback();
     let feedback_tasks=work_completed.display_feedback();
+    let feedback_exercise=exercise.display_feedback();
 
     println!("\nUser Responses:");
     println!("{}", feedback_mood);
