@@ -4,20 +4,20 @@ This Rust program is a simple mood and productivity tracker, meant to be run fro
 
 It prompts the user to enter their current mood, the number of work tasks completed, and whether they exercised. 
 
-It then provides feedback based on the user's input and appends this information, along with a timestamp, to a log file in the current directory.
+It provides feedback based on the user's input and appends this information, along with a timestamp, to a log file in the current directory.
 
 The code is [here](https://github.com/julianeon/moodtracker/blob/main/src/main.rs) and an example log file, with multiple appends, is [here](https://github.com/julianeon/moodtracker/blob/main/src/file_10_24_23.txt).
 
 ## Features 
 
 ### 1. Strong Typing
-Rust enforces strong typing, ensuring that variables have clear and consistent data types. In this code, the use of enums (`Feelings` and `Exercise`) and boolean values (`did_exercise`) provides clear and strict typing for mood, exercise status, and work task counts.
+Rust enforces strong typing, ensuring that variables have clear and consistent data types. In this code, the use of structs for `Mood`, `Exercise` and `WorkCompleted` provides clear and strict typing for mood, exercise status, and work task counts.
 
 ### 2. Memory Safety
 Rust's ownership and borrowing system allows for safe concurrent programming. In contrast to dynamic languages like Python or JavaScript, Rust ensures that shared data is accessed safely, reducing the risk of data corruption or race conditions.
 
 ### 3. Pattern Matching
-Rust's pattern matching elegantly handles the user input. Enums are matched against specific patterns, making the code more readable and simpler to understsand.
+Rust's pattern matching elegantly handles the user input. The user input is matched against specific patterns in the `prompt_user` methods, making the code more readable and simpler to understand.
 
 ### 4. Error Handling
 Rust encourages robust error handling through the use of the `Result` type. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
