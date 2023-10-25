@@ -6,6 +6,8 @@ It prompts the user to enter their current mood, the number of work tasks comple
 
 It then provides feedback based on the user's input and appends this information, along with a timestamp, to a log file.
 
+The code is [here](https://github.com/julianeon/moodtracker/blob/main/src/main.rs) and an example log file, with multiple appends, is [here](https://github.com/julianeon/moodtracker/blob/main/src/file_10_24_23.txt).
+
 ## Features of Rust
 
 ### 1. Strong Typing
