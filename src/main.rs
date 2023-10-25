@@ -48,10 +48,6 @@ struct Mood {
     feeling: Feelings,
 }
 
-struct WorkCompleted {
-    count: i32,
-}
-
 impl Mood {
     fn new() -> Self {
         Mood { feeling: Feelings::Neutral }
@@ -86,6 +82,10 @@ impl Mood {
             Feelings::Neutral => "You are feeling neutral.".to_string(),
         }
     }
+}
+
+struct WorkCompleted {
+    count: i32,
 }
 
 impl WorkCompleted {
