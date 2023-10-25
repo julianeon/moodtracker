@@ -22,7 +22,7 @@ impl Exercise {
             "y" | "yes" => true,
             "n" | "no" => false,
             _ => {
-                println!("I don't know what that means so I assume you didn't exercise.");
+                println!("I don't know what that means so I'm assuming you didn't exercise.");
                 false
             }
         };
