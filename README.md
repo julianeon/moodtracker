@@ -20,7 +20,7 @@ Rust's ownership and borrowing system allows for safe concurrent programming. It
 Rust's pattern matching elegantly handles the user input. The user input is matched against specific patterns in the `prompt_user` methods, making the code more readable and simpler to understand.
 
 ### 4. Error Handling
-Rust encourages robust error handling through the use of the `Result` type. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
+Rust encourages robust error handling through the use of the `Result` type in the `append_string_to_file` function. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
 
 ## Usage
 
