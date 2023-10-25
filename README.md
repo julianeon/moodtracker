@@ -1,6 +1,6 @@
 # Mood Tracker
 
-This Rust program is a simple mood and productivity tracker. 
+This Rust program is a simple mood and productivity tracker, meant to be run from the command line. 
 
 It prompts the user to enter their current mood, the number of work tasks completed, and whether they exercised. 
 
@@ -19,11 +19,8 @@ Rust's ownership and borrowing system allows for safe concurrent programming. In
 ### 3. Pattern Matching
 Rust's pattern matching elegantly handles the user input. Enums are matched against specific patterns, making the code more readable and simpler to understsand.
 
-### 5. Error Handling
+### 4. Error Handling
 Rust encourages robust error handling through the use of the `Result` type. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
-
-### 6. File Handling
-The code demonstrates Rust's strong file handling capabilities by efficiently opening, appending to, and managing files. This is especially useful for tasks like logging, where precise control is important.
 
 ## Usage
 
