@@ -14,7 +14,7 @@ The code is [here](https://github.com/julianeon/moodtracker/blob/main/src/main.r
 Rust enforces strong typing, ensuring that variables have clear and consistent data types. In this code, the use of structs for `Mood`, `Exercise` and `WorkCompleted` provides clear and strict typing for mood, exercise status, and work task counts.
 
 ### 2. Memory Safety
-Rust's ownership and borrowing system allows for safe concurrent programming. In contrast to dynamic languages like Python or JavaScript, Rust ensures that shared data is accessed safely, reducing the risk of data corruption or race conditions.
+Rust's ownership and borrowing system allows for safe concurrent programming. It ensures that shared data is accessed safely, reducing the risk of data corruption or race conditions.
 
 ### 3. Pattern Matching
 Rust's pattern matching elegantly handles the user input. The user input is matched against specific patterns in the `prompt_user` methods, making the code more readable and simpler to understand.
