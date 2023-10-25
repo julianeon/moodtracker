@@ -4,7 +4,7 @@ This Rust program is a simple mood and productivity tracker.
 
 It prompts the user to enter their current mood, the number of work tasks completed, and whether they exercised. 
 
-It then provides feedback based on the user's input and appends this information, along with a timestamp, to a daily log file.
+It then provides feedback based on the user's input and appends this information, along with a timestamp, to a log file.
 
 ## Features of Rust
 
@@ -15,13 +15,13 @@ Rust enforces strong typing, ensuring that variables have clear and consistent d
 Rust's ownership and borrowing system allows for safe concurrent programming. In contrast to dynamic languages like Python or JavaScript, Rust ensures that shared data is accessed safely, reducing the risk of data corruption or race conditions.
 
 ### 3. Pattern Matching
-Rust's pattern matching, used extensively here, elegantly handles the user input. Enums are matched against specific patterns, making the code more readable and simpler to understsand.
+Rust's pattern matching elegantly handles the user input. Enums are matched against specific patterns, making the code more readable and simpler to understsand.
 
 ### 5. Error Handling
-Rust encourages robust error handling through the use of the `Result` type. It ensures that errors are explicitly handled, which is unlike some scripting languages where errors might be ignored or difficult to trace.
+Rust encourages robust error handling through the use of the `Result` type. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
 
 ### 6. File Handling
-The code demonstrates Rust's strong file handling capabilities by efficiently opening, appending to, and managing files. This is especially useful for tasks like logging, where precise control over file operations is crucial.
+The code demonstrates Rust's strong file handling capabilities by efficiently opening, appending to, and managing files. This is especially useful for tasks like logging, where precise control is important.
 
 ## Usage
 
