@@ -22,6 +22,8 @@ Rust's pattern matching elegantly handles the user input. The user input is matc
 ### 4. Error Handling
 Rust encourages robust error handling through the use of the `Result` type in the `append_string_to_file` function. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
 
+For a longer take on Rust's advantages, see this [blog post](https://www.rerun.io/blog/why-rust).
+
 ## Usage
 
 1. Clone this repository to your local machine.
