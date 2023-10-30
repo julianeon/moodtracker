@@ -151,9 +151,7 @@ fn main() {
     let feedback_exercise=exercise.display_feedback();
 
     println!("\nUser Responses:");
-    println!("{}", feedback_mood);
-    println!("{}", feedback_tasks);
-    println!("{}", feedback_exercise);
+    println!("{}\n{}\n{}", feedback_mood, feedback_tasks, feedback_exercise);
 
     let current_datetime = Local::now();
     let formatted_datetime = current_datetime.format("%H:%M:%S | %y-%m-%d").to_string();
