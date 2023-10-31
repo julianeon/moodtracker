@@ -8,7 +8,7 @@ It provides feedback based on the user's input and appends this information, alo
 
 The code is in [main.rs](https://github.com/julianeon/moodtracker/blob/main/src/main.rs) and an example log file, with multiple appends, is shown in [file_10_24_23.txt](https://github.com/julianeon/moodtracker/blob/main/src/file_10_24_23.txt).
 
-While [main.rs](https://github.com/julianeon/moodtracker/blob/main/src/main.rs) is implemented with traits, if you want to see the code without traits, read [main_without_traits.rs](https://github.com/julianeon/moodtracker/blob/main/src/main_without_traits.rs), which may be easier to understand if you are new to Rust.
+The code in [main.rs](https://github.com/julianeon/moodtracker/blob/main/src/main.rs) is implemented with traits. If you want to see the same code without traits, read [main_without_traits.rs](https://github.com/julianeon/moodtracker/blob/main/src/main_without_traits.rs), which may be easier to understand if you are new to Rust.
 
 ## Features 
 
