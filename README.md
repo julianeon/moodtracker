@@ -24,25 +24,23 @@ Rust's pattern matching elegantly handles the user input. The user input is matc
 ### 4. Error Handling
 Rust encourages robust error handling through the use of the `Result` type in the `append_string_to_file` function. It ensures that errors are explicitly handled, unlike scripting languages where errors might be more difficult to trace.
 
-For a longer read on the advantages Rust can bring, see this ['Why Rust?'](https://www.rerun.io/blog/why-rust) blog post.
+For a longer read on the advantages that using Rust can bring, see this ['Why Rust?'](https://www.rerun.io/blog/why-rust) blog post.
 
 ## Usage
 
 1. Clone this repository to your local machine.
 
-2. Make sure you have Rust installed. If not, you can install it from [Rust's official website](https://www.rust-lang.org/tools/install).
+2. Open a terminal and navigate to the project directory.
 
-3. Open a terminal and navigate to the project directory.
-
-4. Compile and run the program using the following command:
+3. Compile and run the program using the following command:
 
    ```shell
    cargo run
    ```
 
-5. Follow the prompts to enter your mood, the number of work tasks completed, and whether you exercised.
+4. Follow the prompts to enter your mood, the number of work tasks completed, and whether you exercised.
 
-6. The program will display feedback based on your input, and the feedback, along with a timestamp, will be appended to a daily log file.
+5. The program will display feedback based on your input, and the feedback, along with a timestamp, all appended to a daily log file.
 
 ## License
 
